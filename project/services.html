@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoodEx Logistics - Services</title>
+    <link rel="icon" type="image/png" href="unnamed.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .top-bar {
+            background-color: #f8f9fa;
+            padding: 5px 0;
+            font-size: 0.9rem;
+        }
+        .navbar {
+            background-color: #0d6efd;
+        }
+        .navbar-brand img {
+            height: 40px;
+        }
+        .navbar-nav .nav-link {
+            color: white !important;
+        }
+        .navbar-nav .nav-item:last-child .nav-link {
+            background-color: #dc3545;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+        }
+        .services {
+            background-color: #f1f3f5;
+            padding: 50px 0;
+        }
+        .services h2 {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+        .services h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            width: 50px;
+            background-color: #dc3545;
+            margin: 0 auto;
+        }
+        .service-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            height: 100%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .service-card img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+        .service-card h5 {
+            color: #0d6efd;
+            margin-bottom: 15px;
+        }
+        .read-more {
+            color: #dc3545;
+            text-decoration: none;
+        }
+        .read-more:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #0d6efd;
+            color: white;
+            padding: 40px 0;
+        }
+        footer h5 {
+            color: white;
+        }
+        footer ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        footer ul li {
+            margin-bottom: 10px;
+        }
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <span class="me-3"><i class="fas fa-envelope"></i> info@goodexlogistics.com</span>
+                    <span><i class="fas fa-phone"></i> +977-9801828417</span>
+                </div>
+                <div class="col-md-6 text-end">
+                    <span class="me-3"><i class="far fa-clock"></i> Mon-Sun: 9-5</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Mid-Baneshwor, Miteri Marga</span>
+                    <a href="#" class="ms-3 text-dark"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="ms-2 text-dark"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="logo.png" alt="GoodEx Logistics"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="getaEnquiry.html">ENQUIRY</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="services">
+        <div class="container">
+            <h2 class="text-center">OUR SERVICES</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <img src="ship.png" alt="Sea Freight" class="mb-3">
+                        <h5>Sea Frieght</h5>
+                        <p>Welcome to GoodEx Logistics, your premier partner for seamless sea freight solutions. With a steadfast dedication to excellence, we offer a wide range of reliable and efficient logistics services tailored to meet your sea freight ...</p>
+                        <a href="#" class="read-more">READ MORE <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <img src="plane.png" alt="Air Freight" class="mb-3">
+                        <h5>Air Frieght</h5>
+                        <p>Welcome to GoodEx Logistics, where excellence meets efficiency in air freight services. With a steadfast commitment to delivering superior logistics solutions, we pride ourselves on being your trusted partner for all your air frei...</p>
+                        <a href="#" class="read-more">READ MORE <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <img src="vehicle.png" alt="Road Freight" class="mb-3">
+                        <h5>Road Frieght</h5>
+                        <p>Welcome to GoodEx Logistics, your trusted partner for reliable road freight solutions. At GoodEx Logistics, we understand the importance of efficient and timely transportation of goods via roadways. With our commitment to excellen...</p>
+                        <a href="#" class="read-more">READ MORE <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <img src="train.png" alt="Train Freight" class="mb-3">
+                        <h5>Train Frieght</h5>
+                        <p>Welcome to GoodEx Logistics, your trusted partner for efficient train freight solutions. At GoodEx Logistics, we recognize the significance of train transportation in facilitating the movement of goods across various regions. With...</p>
+                        <a href="#" class="read-more">READ MORE <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <img src="custom.png" alt="Custom Clearance" class="mb-3">
+                        <h5>Custom Clearance</h5>
+                        <p>Welcome to GoodEx Logistics, your premier partner for seamless custom clearance solutions. At GoodEx Logistics, we understand the complexities involved in international trade and the importance of efficient customs clearance proce...</p>
+                        <a href="#" class="read-more">READ MORE <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="order-tracking">
+        <div class="container">
+            <h2 class="text-center">Track Your Order</h2>
+            <form action="track_order.php" method="POST">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" name="enquiry_id" placeholder="Enquiry ID" required>
+                    </div>
+                    <div class="col-12 text-center mt-4">
+                        <button type="submit" class="btn btn-primary">Track Order</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <br>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="goodexlogo.png" alt="GoodEx Logistics" class="mb-3" style="max-width: 100%; max-height: 100%;">
+                    <p>GoodEx Logistics Pvt. Ltd.</p>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="#">About us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5>Contact us</h5>
+                    <p>GoodEx Logistics Pvt. Ltd.</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Mid-Baneshwor, Miteri Marga</p>
+                    <p><i class="fas fa-phone"></i> +977-9801828417, 9815239961</p>
+                    <p><i class="fas fa-envelope"></i> info@goodexlogistics.com</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5>Follow us</h5>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="bg-primary text-white text-center py-3">
+        <p class="m-0">&copy; 2024 - All Rights with GoodEx Logistics</p>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
